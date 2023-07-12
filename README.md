@@ -37,6 +37,17 @@ Visualize 5 images for each class in the dataset
 
 ## Building Res-Block for the Model
 
+In our project, the input shape is (256, 256, 3), which corresponds to an image with a width and height of 256 pixels and 3 color channels (RGB).
+
+Therefore, the number of neurons in the input layer is equal to the total number of input features, which is calculated by multiplying the width, height, and number of channels together:
+
+256 * 256 * 3 = 196,608 neurons in the input layer.
+
+In the model, we used 3 Res-block(3 convolutional and 6 identity block).
+
+The output has only 5 neurons which corresponds to 'Mild', 'Moderate', 'No_DR', 'Proliferate_DR', 'Severe'. 
+
+
 ![blocks](https://github.com/elif-t/detecting-diabetic-retinopathy/blob/main/blocks.png)
 
 ![res-net2](https://github.com/elif-t/detecting-diabetic-retinopathy/blob/main/res-net2.png)
@@ -47,6 +58,8 @@ Visualize 5 images for each class in the dataset
 **classification report: accuracy, recall and f1-scores**
 
 ![report](https://github.com/elif-t/detecting-diabetic-retinopathy/blob/main/report.png)
+
+![output](https://github.com/elif-t/detecting-diabetic-retinopathy/blob/main/output.png)
 
 
 
