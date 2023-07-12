@@ -10,6 +10,10 @@ Visualize 5 images for each class in the dataset
 
 ![data](https://github.com/elif-t/detecting-diabetic-retinopathy/blob/main/data_visualize.png)
 
+## Building Res-Block for the Model
+
+![res-net](https://github.com/elif-t/detecting-diabetic-retinopathy/blob/main/Building%20Res-Block%20for%20the%20Model.jpeg)
+
 ## Results
 **classification report: accuracy, recall and f1-scores**
 
